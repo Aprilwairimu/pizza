@@ -1,0 +1,29 @@
+#main_pic {
+    height: 300px;
+}
+
+.img-list {
+    border-radius: 10% 10%;
+    height: 100px;
+    width: 200px;
+}
+
+
+/* #dropdownMenuLink {
+    height: 30px;
+    background-color: rgb(124, 80, 80);
+    border: 2px solid rgb(77, 29, 10);
+} */
+
+icon-shape {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.icon-sm {
+    width: 2rem;
+    height: 2rem;
+}
