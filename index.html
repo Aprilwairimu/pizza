@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Delicioso Restuarant</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">Pizza Order</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <button class="btn btn-primary btn-log ms-auto">log In</button>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="Home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="About" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services" class="nav-link">services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services" class="nav-link">Help</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--showcase-->
+    <section class="bg-dark.text-light p-5 text-center">
+        <div class="container">
+            <div class="d-flex">
+                <div class="col">
+                    <h1>Get Your <span class="text-warning">Order Now! </span></h1>
+                    <p class="lead my-4">
+                        Pizza is one of the most favorite foods of the young generation.Have a taste of the most
+                        delicious pizza you love .
+                    </p>
+                </div>
+                <!-- <img class="image-fluid w-40" src="images/pizza.jpg">
+                <img src="/images/pizza.jpg" id="main_pic" class="rounded-2 float-end" alt="..."> -->
+            </div>
+        </div>
+    </section>
+
+
+    <!--menu category-->
+    <section class="bg-light text-dark p-5 text-center">
+
+        <!-- Fist Pizza -->
+        <div class="card mb-3" style="max-width: 100%;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="/images/Hawaiian.jpg" class="img-list rounded img-fluid p-md-2 " alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Hawaiian Pizza</h5>
+                        <p class="card-text">pineapple & Beef Ham.</p>
+                        <p class="card-text"><small class="text-muted">From 4000ksh</small></p>
+                        <!-- DropDown -->
+                        <div class="dropdown">
+                            <i src="https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/64/000000/external-plus-multimedia-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png"
+                                class="fa fa-plus fa-lg" id="dropdownMenuLink" data-bs-toggle="modal"
+                                aria-expanded="false" data-bs-target="#exampleModal"></i>
+                        </div>
+
+                        <!-- Modal -->
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scorrable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Hawaaiian Pizza</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-start">
+
+                                        <!-- Form Modal Body -->
+                                        <form action="">
+                                            <h5>Thank You for Ordering, please choose one of the following:</h5>
+                                            <!-- Change to Include salads, medium,large etc -->
+                                            <!-- Default radio -->
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                    id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                    Small Pizza
+                                                    <span class="text-danger text-md-center">Kshs 1000</span>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                    id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                    Medium Pizza
+                                                    <span class="text-danger text-md-center">Kshs 4000</span>
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                    id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                    Large Pizza
+                                                </label>
+
+                                                <span class="text-danger text-md-center">Kshs 8000</span>
+
+
+                                            </div>
+
+
+                                            <h5>Would you like extra toppings for your pizza? On the House! <i
+                                                    class="fa fa-headphones"></i> </h5>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Salad
+                                                    <span class="text-danger text-md-center">Kshs 50</span>
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Pepperoni
+                                                    <span class="text-danger text-md-center">Kshs 200</span>
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Pineapple Toppings
+                                                    <span class="text-danger text-md-center">Kshs 100</span>
+                                                </label>
+                                            </div>
+
+                                            <h5>Choose your crust:</h5>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Cripsy
+                                                    <span class="text-danger text-md-center">Kshs 100</span>
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Stuffed
+                                                    <span class="text-danger text-md-center">Kshs 50</span>
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Gluten-free
+                                                    <span class="text-danger text-md-center">Kshs 200</span>
+                                                </label>
+                                            </div>
+                                            <h5>Thank you for shopping with us! <i class="fa fa-smile-o"></i> </h5>
+
+                                        </form>
+                                        <!-- Form End of Modal Body -->
+
+
+
+                                        <!-- Modal Footer -->
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <span><label for="quantity">Pieces Needed:</label>
+                                            <input style="width:50px" class="text-center" type="number" id="quantity"
+                                                name="quantity" min="1" max="1000"></span>
+
+
+                                        <!-- Script redirecting to popup.html -->
+                                        <button type="submit" id="submit_button" class="btn btn-primary">Submit<span
+                                                id="total_value"></span></button>
+                                        <script type="text/javascript">
+                                            document.getElementById("submit_button").onclick = function () {
+                                                location.href = "./popup.html";
+                                            };
+                                        </script>
+                                        <!-- End of redirecting script -->
+
+                                        <!-- Modal Footer-->
+                                        <!-- End of Modal -->
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Modal -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Pizza -->
+        <div class="card mb-3" style="max-width: 100%;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="images/chicken-tikka-masala-pizza-.jpg" class="img-list img-fluid rounded p-md-2"
+                        alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">chicken-tikka-masala-Pizza</h5>
+                        <p class="card-text">Chicken,red onions,green papers,red chili,mushroom</p>
+                        <p class="card-text"><small class="text-muted">From 4000ksh</small></p>
+                        <div class="dropdown">
+                            <i src="https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/64/000000/external-plus-multimedia-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png"
+                                class="fa fa-plus fa-lg" id="dropdownMenuLink" data-bs-toggle="modal"
+                                aria-expanded="false" data-bs-target="#exampleModal2"></i>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scorrable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">chicken-tikka-masala-Pizza</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-start">
+
+                                        <!-- Form Modal Body -->
+                                        <form action="">
+                                            <h5>Thank You Ordering, please choose one of the following:</h5>
+                                            <!-- Change to Include salads, medium,large etc -->
+                                            <!-- Default radio -->
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                    id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                    Small Pizza
+                                                    <span class="text-danger text-md-center">Kshs 1000</span>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                    id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                    Medium Pizza
+                                                    <span class="text-danger text-md-center">Kshs 4000</span>
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                    id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                    Large Pizza
+                                                </label>
+
+                                                <span class="text-danger text-md-center">Kshs 8000</span>
+
+
+                                            </div>
+
+
+                                            <h5>Would you like extra toppings for your pizza? On the House! <i
+                                                    class="fa fa-headphones"></i> </h5>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Salad
+                                                    <span class="text-danger text-md-center">Kshs 50</span>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Pepperoni
+                                                    <span class="text-danger text-md-center">Kshs 200</span>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Pineapple Toppings
+                                                    <span class="text-danger text-md-center">Kshs 100</span>
+                                                </label>
+                                            </div>
+                                            <h5>Choose your crust:</h5>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Cripsy
+                                                    <span class="text-danger text-md-center">Kshs 100</span>
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Stuffed
+                                                    <span class="text-danger text-md-center">Kshs 50</span>
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Gluten-free
+                                                    <span class="text-danger text-md-center">Kshs 200</span>
+                                                </label>
+                                            </div>
+                                            <h5>Thank you for shopping with us! <i class="fa fa-smile-o"></i> </h5>
+
+                                        </form>
+                                        <!-- Form End of Modal Body -->
+
+
+
+                                        <!-- Modal Footer -->
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <span><label for="quantity">Pieces Needed:</label>
+                                            <input style="width:50px" class="text-center" type="number" id="quantity"
+                                                name="quantity" min="1" max="1000"></span>
+
+
+                                        <!-- Script redirecting to popup.html -->
+                                        <button type="submit" id="submit_button" class="btn btn-primary">Submit<span
+                                                id="total_value"></span></button>
+                                        <script type="text/javascript">
+                                            document.getElementById("submit_button").onclick = function () {
+                                                location.href = "./popup.html";
+                                            };
+                                        </script>
+                                        <!-- End of redirecting script -->
+
+                                        <!-- Modal Footer-->
+                                        <!-- End of Modal -->
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Modal -->
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Third Pizza -->
+        <div class="card mb-3 " style="max-width: 100%;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="images/Barbecue-Steak-Pizza.jpg" class="img-list img-fluid p-md-2 rounded-start"
+                        alt="...">
+                </div>
+
+                <!-- Change this text to include Pizza Name -->
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Barbecue-Steak-Pizza</h5>
+                        <p class="card-text">Beef,red onions,sweet corn</p>
+                        <p class="card-text"><small class="text-muted">From 4000ksh</small></p>
+
+                        <!-- Plus sign in card title -->
+                        <div class="dropdown">
+                            <i src="https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/64/000000/external-plus-multimedia-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png"
+                                class="fa fa-plus fa-lg" id="dropdownMenuLink" data-bs-toggle="modal"
+                                aria-expanded="false" data-bs-target="#exampleModal3"></i>
+                            <!-- End of plus sign in code title -->
+
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scorrable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Barbecue-Steak-Pizza</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-start">
+
+                                        <!-- Form Modal Body -->
+                                        <form action="">
+                                            <h5>Thank You Ordering, please choose one of the following:</h5>
+                                            <!-- Change to Include salads, medium,large etc -->
+                                            <!-- Default radio -->
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                    id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                    Small Pizza
+                                                    <span class="text-danger text-md-center">Kshs 1000</span>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                    id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                    Medium Pizza
+                                                    <span class="text-danger text-md-center">Kshs 4000</span>
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                    id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                    Large Pizza
+                                                </label>
+
+                                                <span class="text-danger text-md-center">Kshs 8000</span>
+
+
+                                            </div>
+
+
+                                            <h5>Would you like extra toppings for your pizza? On the House! <i
+                                                    class="fa fa-headphones"></i> </h5>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Salad
+                                                    <span class="text-danger text-md-center">Kshs 50</span>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Pepperoni
+                                                    <span class="text-danger text-md-center">Kshs 100</span>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Pineapple Toppings
+                                                    <span class="text-danger text-md-center">Kshs 200</span>
+                                                </label>
+                                            </div>
+                                            <h5>Choose your crust:</h5>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Cripsy
+                                                    <span class="text-danger text-md-center">Kshs 100</span>
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Stuffed
+                                                    <span class="text-danger text-md-center">Kshs 50</span>
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Gluten-free
+                                                    <span class="text-danger text-md-center">Kshs 200</span>
+                                                </label>
+                                            </div>
+                                            <h5>Thank you for shopping with us! <i class="fa fa-smile-o"></i> </h5>
+
+                                        </form>
+                                        <!-- Form End of Modal Body -->
+
+
+
+                                        <!-- Modal Footer -->
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <span><label for="quantity">Pieces Needed:</label>
+                                            <input style="width:50px" class="text-center" type="number" id="quantity"
+                                                name="quantity" min="1" max="1000"></span>
+
+                                        <!-- <label for="quantity">TOTAL:</label>
+                                            <input style="width:50px" class="text-center" id="number" name="number"> -->
+
+
+                                        <!-- Script redirecting to popup.html -->
+                                        <button type="submit" id="submit_button" class="btn btn-primary">Checkout<span
+                                                id="total_value"></span></button>
+                                        <script type="text/javascript">
+                                            document.getElementById("submit_button").onclick = function () {
+                                                location.href = "./popup.html";
+                                            };
+                                        </script>
+                                        <!-- End of redirecting script -->
+
+                                        <!-- Modal Footer-->
+                                        <!-- End of Modal -->
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Modal -->
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fourth Pizza -->
+        <div class="card mb-3" style="max-width: 100%;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="images/peri-peri chicken pizza.jpg" class="img-list img-fluid p-md-2 rounded-start"
+                        alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Peri-peri Chicken Pizza</h5>
+                        <p class="card-text">Chicken,tomatoes,pineapples -SPICY</p>
+                        <p class="card-text"><small class="text-muted">From 4000ksh</small></p>
+                        <div class="dropdown">
+                            <i src="https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/64/000000/external-plus-multimedia-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png"
+                                class="fa fa-plus fa-lg" id="dropdownMenuLink" data-bs-toggle="modal"
+                                aria-expanded="false" data-bs-target="#exampleModal4"></i>
+                        </div>
+
+                        <!-- Modal -->
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scorrable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Peri-peri Chicken Pizza</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-start">
+
+                                        <!-- Form Modal Body -->
+                                        <form action="">
+                                            <h5>Thank You Ordering, please choose one of the following:</h5>
+                                            <!-- Change to Include salads, medium,large etc -->
+                                            <!-- Default radio -->
+                                            <div id="rates">
+                                                <label class="form-check-label" for="flexRadioDefault0">
+                                                    <input type="radio" id="r1" name="rate" value="1000">Small
+                                                    <input type="radio" id="r2" name="rate" value="4000">Medium
+                                                    <input type="radio" id="r3" name="rate" value="8000">Large
+                                                    <!-- <button type="button" onclick="addRate()">submit</button> -->
+                                                    <p id="result"></p>
+                                            </div>
+                                       
+
+
+                                            <h5>Would you like extra toppings for your pizza? <i
+                                                    class="fa fa-headphones"></i> </h5>
+                                            <div id="rates">
+                                                <label class="form-check-label" for="flexRadioDefault0">
+                                                    <input type="radio" id="r1" name="rate" value="50">Salad
+                                                    <input type="radio" id="r2" name="rate" value="100">Pepperoni
+                                                    <input type="radio" id="r3" name="rate" value="200">pineapple
+                                                    Toppings
+                                                    <!-- <button type="button" onclick="addRate()">submit</button> -->
+                                                    <p id="result"></p>
+                                            </div>
+                                          
+
+                                            <h5>Choose your crust:</h5>
+                                            <div id="rates">
+
+                                                <input type="radio" id="r1" name="rate" value="100">Cripsy
+                                                <input type="radio" id="r2" name="rate" value="50">Stuffed
+                                                <input type="radio" id="r3" name="rate" value="100">Glutten-free
+                                                <!-- <button type="button" onclick="addRate()">submit</button> -->
+                                                <p id="result"></p>
+                                            </div>
+                                          
+                                            <h5>Thank you for shopping with us! <i class="fa fa-smile-o"></i> </h5>
+
+                                        </form>
+                                        <!-- Form End of Modal Body -->
+
+
+
+                                        <!-- Modal Footer -->
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <span><label for="quantity">Pieces Needed:</label>
+                                            <input style="width:50px" class="text-center" type="number" id="quantity"
+                                                name="quantity" min="1" max="1000"></span>
+
+                                        <button type="button" onclick="addRate()">submit</button>
+
+
+                                        <!-- Script redirecting to popup.html -->
+                                        <!-- <button type="submit" id="submitButton" class="btn btn-primary">Checkout<span
+                                                id="total_value"></span></button> -->
+
+                                        <!-- End of redirecting script -->
+
+                                        <!-- Modal Footer-->
+                                        <!-- End of Modal -->
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Modal -->
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
+
+                                            
