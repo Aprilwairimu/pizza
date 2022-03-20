@@ -32,7 +32,7 @@ The technologies are ;
 
 https://aprilwairimu.github.io/pizza/
 
-### :telephone_receiver: CONTANCT INFORMATION
+### :telephone_receiver: CONTANCT INFORMATIOn
 
 Find me at wairimuapril@gmail.
 
