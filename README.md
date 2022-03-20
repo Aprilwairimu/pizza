@@ -1,14 +1,8 @@
-### PROJECT NAME
-
-Delicioso Restuarant
-
-### PROJECT PREVIEW
-
-<img src="images/screenshot/Delicioso.jpg">
+## DELICIOSO RESTUARANT
 
 ### PROJECT DESCRIPTION
 
-This is a web application where you as the customer can order different sizes of pizzas with one or more toppings ,what kind of crust you want,and also allows you to order more than one pizza
+This is a web application where you as the customer can order different sizes of pizzas with one or more toppings together with the kind of crust you want,and also allows you to order more than one pizza and if you would prefer delivery then delivery you will get because we provide the best services and deliver on time.
 
 ### :information_desk_person: AUTHOR'S INFORMATION
 
