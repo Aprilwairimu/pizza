@@ -28,8 +28,6 @@ The technologies are ;
 
 :small_blue_diamond: FONT AWESOME ICONS
 
-### BDD
-
 ### LINK TO VIEW SITE
 
 https://aprilwairimu.github.io/pizza/
