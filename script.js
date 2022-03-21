@@ -15,7 +15,6 @@ function invoice() {
   });
 }
 
-
 function addRate() {
   var rate = document.getElementsByName("rate");
   for (i = 0; i < rate.length; i++) {
