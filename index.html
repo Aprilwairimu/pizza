@@ -108,9 +108,9 @@
                                             <!-- Default radio -->
                                         <div id="rates">
                                             <label class="form-check-label" for="flexRadioDefault0">
-                                                <input type="radio" id="r1" name="rate" value="1000">Small
-                                                <input type="radio" id="r2" name="rate" value="4000">Medium
-                                                <input type="radio" id="r3" name="rate" value="8000">Large
+                                                <input type="radio" id="r1" name="rate" value="1000">Small 1000ksh
+                                                <input type="radio" id="r2" name="rate" value="4000">Medium 4000ksh
+                                                <input type="radio" id="r3" name="rate" value="8000">Large 8000ksh
                                                 <!-- <button type="button" onclick="addRate()">submit</button> -->
                                                 <p id="result"></p>
                                         </div>
@@ -120,9 +120,9 @@
                                         <h5>Would you like extra toppings for your pizza? <i class="fa fa-headphones"></i> </h5>
                                         <div id="rates">
                                             <label class="form-check-label" for="flexRadioDefault1">
-                                                <input type="radio" id="T1" name="Top" value="50">Salad
-                                                <input type="radio" id="T2" name="Top" value="100">Pepperoni
-                                                <input type="radio" id="T3" name="Top" value="200">pineapple
+                                                <input type="radio" id="T1" name="Top" value="50">Salad 50ksh
+                                                <input type="radio" id="T2" name="Top" value="100">Pepperoni 100ksh
+                                                <input type="radio" id="T3" name="Top" value="200">pineapple 200ksh
                                                 Toppings
                                                 <!-- <button type="button" onclick="addRate()">submit</button> -->
                                                 <p id="result"></p>
@@ -132,9 +132,9 @@
                                         <h5>Choose your crust:</h5>
                                         <div id="rates">
                                             <label class="form-check-label" for="flexRadioDefault2">
-                                            <input type="radio" id="C1" name="crus" value="100">Cripsy
-                                            <input type="radio" id="C2" name="crus" value="50">Stuffed
-                                            <input type="radio" id="C3" name="crus" value="100">Glutten-free
+                                            <input type="radio" id="C1" name="crus" value="100">Cripsy 100ksh
+                                            <input type="radio" id="C2" name="crus" value="50">Stuffed 50ksh
+                                            <input type="radio" id="C3" name="crus" value="100">Glutten-free 100ksh
                                             <!-- <button type="button" onclick="addRate()">submit</button> -->
                                             <p id="result"></p>
                                         </div>
@@ -143,7 +143,7 @@
                                         </form>
                                         <!-- Form End of Modal Body -->
 
-                                        <div></div>
+                                        
 
                                         <!-- Modal Footer -->
 
@@ -153,6 +153,10 @@
                                             <input style="width:50px" class="text-center" type="number" id="quantity"
                                                 name="quantity" min="1" max="1000"></span>
                                             
+                                                <div class="total">
+                                                    <span><label for="quantity">total</label>
+                                                        <span><input style="width:50px" class="text-center" type="text" id=""></span>
+                                                </div>
 
                                         <!-- Script redirecting to popup.html -->
                                         <button type="submit" id="submit_button" class="btn btn-primary">Submit<span
@@ -213,11 +217,11 @@
                                             <h5>Thank You Ordering, please choose one of the following:</h5>
                                             <!-- Change to Include salads, medium,large etc -->
                                             <!-- Default radio -->
-                                            <div id="rates">
+                                            <div id="srates">
                                                 <label class="form-check-label" for="flexRadioDefault3">
-                                                    <input type="radio" id="s1" name="rate" value="1000">Small
-                                                    <input type="radio" id="s2" name="rate" value="4000">Medium
-                                                    <input type="radio" id="s3" name="rate" value="8000">Large
+                                                    <input type="radio" id="s1" name="ratey" value="1000">Small 1000ksh
+                                                    <input type="radio" id="s2" name="ratey" value="4000">Medium 4000ksh
+                                                    <input type="radio" id="s3" name="ratey" value="8000">Large 8000ksh
                                                     <!-- <button type="button" onclick="addRate()">submit</button> -->
                                                     <p id="rates"></p>
                                             </div>
@@ -225,11 +229,11 @@
                                             
                                             
                                             <h5>Would you like extra toppings for your pizza? <i class="fa fa-headphones"></i> </h5>
-                                            <div id="rates">
+                                            <div id="srates">
                                                 <label class="form-check-label" for="flexRadioDefault4">
-                                                    <input type="radio" id="p1" name="rate" value="50">Salad
-                                                    <input type="radio" id="p2" name="rate" value="100">Pepperoni
-                                                    <input type="radio" id="p3" name="rate" value="200">pineapple
+                                                    <input type="radio" id="p1" name="rate" value="50">Salad 50ksh
+                                                    <input type="radio" id="p2" name="rate" value="100">Pepperoni 100ksh
+                                                    <input type="radio" id="p3" name="rate" value="200">pineapple 200ksh
                                                     Toppings
                                                     <!-- <button type="button" onclick="addRate()">submit</button> -->
                                                     <p id="rates"></p>
@@ -237,11 +241,11 @@
                                             
                                             
                                             <h5>Choose your crust:</h5>
-                                            <div id="rates">
+                                            <div id="srates">
                                                 <label class="form-check-label" for="flexRadioDefault5">
-                                                <input type="radio" id="glu" name="rate" value="100">Cripsy
-                                                <input type="radio" id="glu" name="rate" value="50">Stuffed
-                                                <input type="radio" id="glu" name="rate" value="100">Glutten-free
+                                                <input type="radio" id="glu" name="rater" value="100">Cripsy 100ksh
+                                                <input type="radio" id="glu" name="rater" value="50">Stuffed 50ksh
+                                                <input type="radio" id="glu" name="rater" value="100">Glutten-free 100ksh
                                                 <!-- <button type="button" onclick="addRate()">submit</button> -->
                                                 <p id="rates"></p>
                                             </div>
@@ -260,12 +264,16 @@
                                             <input style="width:50px" class="text-center" type="number" id="quantity"
                                                 name="quantity" min="1" max="1000"></span>
 
+                                                <div class="total">
+                                                    <span><label for="quantity">total</label>
+                                                        <span><input style="width:50px" class="text-center" type="text" id=""></span>
+                                                </div>
 
                                         <!-- Script redirecting to popup.html -->
-                                        <button type="submit" id="submit_button" class="btn btn-primary">Submit<span
+                                        <button type="submit" id="btn" class="btn btn-primary">Submit<span
                                                 id="total_value"></span></button>
                                         <script type="text/javascript">
-                                            document.getElementById("submit_button").onclick = function () {
+                                            document.getElementById("btn").onclick = function () {
                                                 location.href = "./popup.html";
                                             };
                                         </script>
@@ -324,11 +332,11 @@
                                             <h5>Thank You Ordering, please choose one of the following:</h5>
                                             <!-- Change to Include salads, medium,large etc -->
                                             <!-- Default radio -->
-                                            <div id="rates">
+                                            <div id="crates">
                                                 <label class="form-check-label" for="flexRadioDefault6">
-                                                    <input type="radio" id="m1" name="rate" value="1000">Small
-                                                    <input type="radio" id="m2" name="rate" value="4000">Medium
-                                                    <input type="radio" id="m3" name="rate" value="8000">Large
+                                                    <input type="radio" id="m1" name="ratem" value="1000">Small 1000ksh
+                                                    <input type="radio" id="m2" name="ratem" value="4000"> Medium 4000ksh
+                                                    <input type="radio" id="m3" name="ratem" value="8000">Large 8000ksh
                                                     <!-- <button type="button" onclick="addRate()">submit</button> -->
                                                     <p id="result"></p>
                                             </div>
@@ -337,11 +345,11 @@
 
                                             <h5>Would you like extra toppings for your pizza? <i
                                                     class="fa fa-headphones"></i> </h5>
-                                            <div id="rates">
+                                            <div id="crates">
                                                 <label class="form-check-label" for="flexRadioDefault7">
-                                                    <input type="radio" id="n1" name="rate" value="50">Salad
-                                                    <input type="radio" id="n2" name="rate" value="100">Pepperoni
-                                                    <input type="radio" id="n3" name="rate" value="200">pineapple
+                                                    <input type="radio" id="n1" name="ratex" value="50">Salad 50ksh
+                                                    <input type="radio" id="n2" name="ratex" value="100">Pepperoni 100ksh
+                                                    <input type="radio" id="n3" name="ratex" value="200">pineapple 200ksh
                                                     Toppings
                                                     <!-- <button type="button" onclick="addRate()">submit</button> -->
                                                     <p id="result"></p>
@@ -349,11 +357,11 @@
                                           
 
                                             <h5>Choose your crust:</h5>
-                                            <div id="rates">
+                                            <div id="crates">
                                                 <label class="form-check-label" for="flexRadioDefault8">
-                                                <input type="radio" id="v1" name="rate" value="100">Cripsy
-                                                <input type="radio" id="v2" name="rate" value="50">Stuffed
-                                                <input type="radio" id="v3" name="rate" value="100">Glutten-free
+                                                <input type="radio" id="v1" name="ratep" value="100">Cripsy 100ksh
+                                                <input type="radio" id="v2" name="ratep" value="50">Stuffed 50ksh
+                                                <input type="radio" id="v3" name="ratep" value="100">Glutten-free 100ksh
                                                 <!-- <button type="button" onclick="addRate()">submit</button> -->
                                                 <p id="result"></p>
                                             </div>
@@ -373,12 +381,20 @@
                                             <input style="width:50px" class="text-center" type="number" id="quantity"
                                                 name="quantity" min="1" max="1000"></span>
 
-                                       
+                                            <div class="total">
+                                                <span><label for="quantity">total</label>
+                                                <span><input style="width:50px" class="text-center" type="text" id=""></span>
+                                            </div>
 
 
                                         <!--Script redirecting to popup.html -->
-                                        <button type="submit" id="submitButton" class="btn btn-primary">Submit<span
+                                        <button type="submit" id="sub_btn" class="btn btn-primary">Submit<span
                                                 id="total_value"></span></button> 
+                                                <script type="text/javascript">
+                                                    document.getElementById("sub_btn").onclick = function () {
+                                                        location.href = "./popup.html";
+                                                    };
+                                                </script>
 
                                         <!-- End of redirecting script -->
 
@@ -399,7 +415,7 @@
         </div>
 
         </div>
-        <div class="add-info text-center font-size-2px">
+        <div class="add-info text-center">
             <h1>Delicioso Restuarant<br>
                 Ngong lane<br>
                 Nairobi<br>
